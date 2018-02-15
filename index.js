@@ -1,2 +1,5 @@
 import { NativeModules } from 'react-native';
-module.exports = NativeModules.CustomModule;
+
+const AutoRotationSetting = NativeModules.CustomModule;
+
+module.exports = AutoRotationSetting;
